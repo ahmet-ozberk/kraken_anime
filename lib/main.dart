@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:kraken_anime/presentation/features/home/cubit/home_cubit.dart';
-import 'package:kraken_anime/presentation/features/home/view/home_view.dart';
+import 'presentation/features/home/cubit/home_cubit.dart';
+import 'presentation/features/home/view/home_view.dart';
 
 void main() {
   runApp(const MyApp());

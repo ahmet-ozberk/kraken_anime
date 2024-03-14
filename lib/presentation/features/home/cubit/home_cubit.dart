@@ -1,8 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:kraken_anime/domain/models/anime_base_model.dart';
-import 'package:kraken_anime/domain/models/anime_model.dart';
-import 'package:kraken_anime/domain/repositories/anime_repositories.dart';
-import 'package:kraken_anime/presentation/features/home/cubit/home_state.dart';
+import '../../../../domain/models/anime_base_model.dart';
+import '../../../../domain/repositories/anime_repositories.dart';
+import 'home_state.dart';
 
 class HomeCubit extends Cubit<HomeState> {
   HomeCubit() : super(const HomeInitialState()) {

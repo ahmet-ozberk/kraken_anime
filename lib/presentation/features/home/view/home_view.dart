@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:kraken_anime/data/native_method_channel/anime_method_channel.dart';
-import 'package:kraken_anime/presentation/features/home/cubit/home_cubit.dart';
-import 'package:kraken_anime/presentation/features/home/cubit/home_state.dart';
-import 'package:kraken_anime/presentation/features/home/widgets/home_error_widget.dart';
-import 'package:kraken_anime/presentation/features/home/widgets/home_list_widget/home_list_widget.dart';
-import 'package:kraken_anime/presentation/features/home/widgets/home_loading_widget.dart';
+import '../../../../data/native_method_channel/anime_method_channel.dart';
+import '../cubit/home_cubit.dart';
+import '../cubit/home_state.dart';
+import '../widgets/home_error_widget.dart';
+import '../widgets/home_list_widget/home_list_widget.dart';
+import '../widgets/home_loading_widget.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});

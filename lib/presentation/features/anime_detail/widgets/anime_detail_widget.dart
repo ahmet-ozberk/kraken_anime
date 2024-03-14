@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kraken_anime/domain/models/anime_detail_model.dart';
+import '../../../../domain/models/anime_detail_model.dart';
 
 class AnimeDetailWidget extends StatefulWidget {
   final List<AnimeDetailModel> animeDetailModel;

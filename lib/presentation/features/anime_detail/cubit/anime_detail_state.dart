@@ -1,4 +1,4 @@
-import 'package:kraken_anime/domain/models/anime_detail_model.dart';
+import '../../../../domain/models/anime_detail_model.dart';
 
 abstract class AnimeDetailState {
   const AnimeDetailState();

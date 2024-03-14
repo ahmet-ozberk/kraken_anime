@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 import 'package:flutter_test/flutter_test.dart';
 import 'package:kraken_anime/data/native_method_channel/anime_method_channel.dart';
 

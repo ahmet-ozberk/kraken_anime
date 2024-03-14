@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:kraken_anime/data/native_method_channel/anime_method_channel.dart';
-import 'package:kraken_anime/domain/models/anime_detail_model.dart';
+import '../native_method_channel/anime_method_channel.dart';
+import '../../domain/models/anime_detail_model.dart';
 import '../../domain/models/anime_base_model.dart';
 
 class AnimeDatasource {

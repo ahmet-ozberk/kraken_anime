@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:kraken_anime/presentation/features/anime_detail/cubit/anime_detail_cubit.dart';
-import 'package:kraken_anime/presentation/features/anime_detail/cubit/anime_detail_state.dart';
-import 'package:kraken_anime/presentation/features/anime_detail/widgets/anime_detail_widget.dart';
+import '../cubit/anime_detail_cubit.dart';
+import '../cubit/anime_detail_state.dart';
+import '../widgets/anime_detail_widget.dart';
 
 class AnimeDetailView extends StatelessWidget {
   final int id;

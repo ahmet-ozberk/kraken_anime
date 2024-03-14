@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:kraken_anime/domain/models/anime_model.dart';
-import 'package:kraken_anime/presentation/features/home/widgets/home_list_widget/home_list_item.dart';
+
+import '../../../../../domain/models/anime_model.dart';
+import 'home_list_item.dart';
 
 class HomeListWidget extends StatelessWidget {
   final List<AnimeModel> animes;

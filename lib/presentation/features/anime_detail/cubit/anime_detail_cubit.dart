@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:kraken_anime/domain/repositories/anime_repositories.dart';
-import 'package:kraken_anime/presentation/features/anime_detail/cubit/anime_detail_state.dart';
+import '../../../../domain/repositories/anime_repositories.dart';
+import 'anime_detail_state.dart';
 
 class AnimeDetailCubit extends Cubit<AnimeDetailState> {
   final int id;
